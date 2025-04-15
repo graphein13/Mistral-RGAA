@@ -1,0 +1,25 @@
+{
+  "name": "rgaa-playwright-test",
+  "version": "1.0.0",
+  "description": "Tests d'accessibilité RGAA avec Playwright pour le site Mistral Pénal",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "accessibility",
+    "rgaa",
+    "playwright",
+    "axe-core",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.40.0",
+    "axe-core": "^4.8.2",
+    "html-reporter": "^1.0.0"
+  }
+}
